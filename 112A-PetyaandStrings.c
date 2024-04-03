@@ -7,6 +7,7 @@ int main()
     char b[100];
     scanf("%s", a);
     scanf("%s", b);
+    
     int ans = 0;
     for (int i = 0; i < strlen(a); i++) {
         if (a[i] < 'a') {
@@ -23,6 +24,7 @@ int main()
             break;
         }
     }
+    
     printf("%d", ans);
     return 0;
 }
